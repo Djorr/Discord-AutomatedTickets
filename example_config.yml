@@ -1,0 +1,190 @@
+#=========================================================#
+#                     Bot configuration                   #
+#=========================================================#
+
+BOT:
+  NAME: "Djorr | Tickets"
+  TOKEN: "MTAwODgzNDU2NjYzMjUxNzcwMg.G_E1RR.mBMPssbnkRgnnn-ue1Hd0mwjy_Dgf17PjHRf-4"
+
+#=========================================================#
+#                   Tickets configuration                 #
+#=========================================================#
+
+TICKET:
+  TICKET_EMBED_CHANNEL: ""
+  IMPORTANT_CATEGORIES:
+    OPEN: "1005383475836239895"
+    CLOSED: "1009576360987082752"
+    OPEN_LATEN: "1009583549587927180"
+    ON_HOLD: "1009583580055351429"
+
+  CATEGORIES:
+    APPLICATION:
+      CATEGORY_IDENTIFIER: "application"
+      CATEGORY_ID: "1005383475836239895"
+      CATEGORY_NAME: "Sollicitaties"
+      TYPES:
+        EVENT_ROLEPLAY:
+          TICKET_IDENTIFIER: "application_er"
+          TICKET_PREFIX: "se-"
+          TICKET_DISPLAY_TOPIC: "Sollicitatie"
+          TICKET_DISPLAY_NAME: "Event/Roleplay"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: "Wat is je minecraft naam?"
+              IS_YES_OR_NO_QUESTION: false
+            2:
+              QUESTION: "Hoe oud ben je?"
+              IS_YES_OR_NO_QUESTION: false
+            3:
+              QUESTION: "Hoe oud ben je nog een keer?"
+              IS_YES_OR_NO_QUESTION: false
+        BUILDER:
+          TICKET_IDENTIFIER: "application_b"
+          TICKET_PREFIX: "sb-"
+          TICKET_DISPLAY_TOPIC: "Sollicitatie"
+          TICKET_DISPLAY_NAME: "Bouwer"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: "Wat is je minecraft naam?"
+              IS_YES_OR_NO_QUESTION: false
+        DEVELOPER:
+          TICKET_IDENTIFIER: "application_d"
+          TICKET_PREFIX: "sd-"
+          TICKET_DISPLAY_TOPIC: "Sollicitatie"
+          TICKET_DISPLAY_NAME: "Developer"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false
+        STAFF:
+          TICKET_IDENTIFIER: "application_s"
+          TICKET_PREFIX: "ss-"
+          TICKET_DISPLAY_TOPIC: "Sollicitatie"
+          TICKET_DISPLAY_NAME: "Staff"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false
+    QUESTION:
+      CATEGORY_IDENTIFIER: "question"
+      CATEGORY_ID: "1005383475836239895"
+      CATEGORY_NAME: "Vraag"
+      TYPES:
+        EVENT_ROLEPLAY:
+          TICKET_IDENTIFIER: "question_er"
+          TICKET_PREFIX: "ve-"
+          TICKET_DISPLAY_TOPIC: "Vraag"
+          TICKET_DISPLAY_NAME: "Event/Roleplay"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false
+        EXTERN:
+          TICKET_IDENTIFIER: "question_e"
+          TICKET_PREFIX: "vo-"
+          TICKET_DISPLAY_TOPIC: "Vraag"
+          TICKET_DISPLAY_NAME: "Overig"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false
+        MARKETING_PARTNER:
+          TICKET_IDENTIFIER: "question_mp"
+          TICKET_PREFIX: "vm-"
+          TICKET_DISPLAY_TOPIC: "Vraag"
+          TICKET_DISPLAY_NAME: "Marketing/Partner"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false
+    ISSUES:
+      CATEGORY_IDENTIFIER: "issue"
+      CATEGORY_ID: "1005383475836239895"
+      CATEGORY_NAME: "Klachten"
+      TYPES:
+        EVENT_ROLEPLAY:
+          TICKET_IDENTIFIER: "issue_er"
+          TICKET_PREFIX: "ker-"
+          TICKET_DISPLAY_TOPIC: "Klacht"
+          TICKET_DISPLAY_NAME: "Event/Roleplay"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false
+        IN_OUT_GAME:
+          TICKET_IDENTIFIER: "issue_iog"
+          TICKET_PREFIX: "kg-"
+          TICKET_DISPLAY_TOPIC: "Klacht"
+          TICKET_DISPLAY_NAME: "In/Out-Game"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false
+        STAFF:
+          TICKET_IDENTIFIER: "issue_s"
+          TICKET_PREFIX: "ks-"
+          TICKET_DISPLAY_TOPIC: "Klacht"
+          TICKET_DISPLAY_NAME: "Staff"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false
+        PLAYER:
+          TICKET_IDENTIFIER: "issue_p"
+          TICKET_PREFIX: "ks-"
+          TICKET_DISPLAY_TOPIC: "Klacht"
+          TICKET_DISPLAY_NAME: "Speler"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false
+    PUNISHMENTS:
+      CATEGORY_IDENTIFIER: "punishment"
+      CATEGORY_ID: "1005383475836239895"
+      CATEGORY_NAME: "Ontrechte acties"
+      TYPES:
+        EVENT_ROLEPLAY:
+          TICKET_IDENTIFIER: "punish_b"
+          TICKET_PREFIX: "ob-"
+          TICKET_DISPLAY_TOPIC: "Ontrechte acties"
+          TICKET_DISPLAY_NAME: "Ban"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false
+        BUILDER:
+          TICKET_IDENTIFIER: "punish_m"
+          TICKET_PREFIX: "om-"
+          TICKET_DISPLAY_TOPIC: "Ontrechte acties"
+          TICKET_DISPLAY_NAME: "Mute"
+          TICKET_TAG_ROLES:
+            - "1007743029450383461"
+          TICKET_QUESTIONS:
+            1:
+              QUESTION: ""
+              IS_YES_OR_NO_QUESTION: false

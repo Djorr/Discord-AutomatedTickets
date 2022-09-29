@@ -1,0 +1,49 @@
+TICKET:
+  ALREADY_TICKET_OPEN: "Je hebt al een ticket open staan!"
+  REACT_SUPPORT: "**Reageer hieronder om hulp te krijgen van onze medewerkers.**"
+  ONLY_OWNER_OF_TICKET_CAN_DO_THIS: "Alleen de eigenaar van het ticket kan dit!"
+  PERMISSIONS:
+    NO_PERMISSION: "**Je hebt hier geen permissie voor!**"
+  EMBED:
+    CHOOSE_CATEGORY:
+      TITEL: "Kies een category"
+      MESSAGE:
+        - "Kies wat voor ticket je wilt aanmaken"
+    CREATE:
+      INFORMATION:
+        TITEL: "🎟️ Ticket Regels"
+        MESSAGE:
+          - "Om je zo goed mogelijk te helpen hebben we hier een lijstje met regels opgesteld."
+          - "\n"
+          - "1. Omschrijf de reden van het ticket zo goed en duidelijk mogelijk. Dit is om zo goed mogelijke support te leveren."
+          - "\n"
+          - "2. Indien er iets mis is gelopen met een aankoop in de shop vertel dan even wat je precies hebt gekocht en welke betaalmethode je gebruikt hebt."
+          - "\n"
+          - "3. Heb geduld! Ons support team probeert altijd z.s.m support te leveren maar het kan ook voorkomen dat je niet meteen geholpen word of dat de persoon die je kan helpen niet online is."
+          - "\n"
+          - "1. Bug reports"
+          - "2. Partner aanvragen"
+          - "3. Unban/mute"
+          - "4. Player Reports"
+          - "5. Vragen (overig)"
+      REACTION:
+        TITEL: "🎟️ Ticket Openen"
+        MESSAGE:
+          - "Als je een ticket wilt openen:"
+          - "Druk dan op 🎟️ om een ticket te maken."
+          - "\n"
+          - "LET OP: Bedenk eerst je vraag voordat je een ticket opent."
+    REMOVE:
+      REACTION:
+        MESSAGE: "Ticket wordt verwijderd..."
+    ANSWER:
+      REACTION:
+        TITEL: "**Bedankt voor het invullen!**"
+    STAFF_CLAIMED:
+      REACTION:
+        IS_ALREADY_CLAIMED: "Het ticket is al geclaimed!"
+        MESSAGE: "<@<userId>> is er, om je te helpen!"
+    CHOOSE_TYPE:
+      INFORMATION:
+        TITEL: "Djorr"
+        MESSAGE: "Kies onderaan welke category het om gaat"
